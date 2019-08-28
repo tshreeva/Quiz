@@ -1,0 +1,39 @@
+body{
+	max-width: 500px;
+	margin: auto;
+}
+#head{
+	color: #ffffff;
+	margin: 10px;
+	background: #665769;
+	padding: 10px;
+	border-radius: 10px;
+}
+#question{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+#answer div{
+	color: #ffffff;
+	margin: 10px;
+	background: #665769;
+	padding: 10px;
+	border-radius: 10px;
+}
+#answer div:hover{
+	color: #ffffff;
+	background: #111111;
+	
+	padding: 1px solid;
+}
+#question{
+	font-size: 25px;
+	color: #111111;
+	font-weight: 600;
+}
+.correct{
+	background: #008000 !important;
+}
+.incorrect{
+	background: #ff0000 !important;
+}
